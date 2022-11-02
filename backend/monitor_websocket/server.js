@@ -5,7 +5,7 @@ import fs from 'fs';
 const wss = new WebSocketServer({ port: 443 });
 
 // log that server has initiated
-console.log("Launching Websocket server");
+console.log("Launched Websocket server");
 
 wss.on('connection', function connection(ws) {
 
